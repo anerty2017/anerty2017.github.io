@@ -32,6 +32,7 @@ function toDriveRight() {
 function toDriveLeft() {
 	if (position == 0) {
 		clearInterval(id);
+		sedan.style.transform = 'scale(1, 1)';
 	} else {
 		position --;
 		sedan.style.left = position + 'px';
